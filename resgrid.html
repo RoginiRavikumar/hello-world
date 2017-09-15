@@ -1,0 +1,449 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>target</title>
+<link rel="stylesheet" type="text/css" href="css/reshead.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript">
+      function showHideDiv(ele1,ele2,body) {
+         
+        var srcElement = document.getElementById(ele1);
+        var hideBody = document.getElementById(body);
+        document.getElementById(ele2).style.display = 'none';
+          if(srcElement!=null){
+          if (srcElement.style.display == "block") {
+
+            srcElement.style.display = 'none';
+             hideBody.style.display = 'block';
+          }
+        else {
+            srcElement.style.display = 'block';
+             hideBody.style.display = 'block';
+             
+          }
+          return false;
+        }
+ }
+</script>
+</head>
+
+<body>
+
+<div class="header">
+    <div class="logo">
+   <a href="#">LOGO</a>
+   </div>
+
+   <div id="hamburger1" onClick="showHideDiv('mobile-nav','mobile-menu','body' )" >
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+  </div>
+   <div class="nav">
+   <ul>
+   <li><a href="#">SALES AND MARKETING</a></li>
+   <li><a href="#">EMAIL AND COLLABORATION</a></li>
+   <li><a href="#">IT AND HELP DESK</a></li>
+   <li><a href="#">FINANCE</a></li>
+   <li><a href="#">HR</a></li>
+   <li><a href="#">BUSINESS PROCESS</a></li>
+   </ul>
+   </div>
+
+  <div id="mobile-nav" style="display:none;">
+   <ul>
+   <li><a href="#">SALES AND MARKETING</a></li>
+   <li><a href="#">EMAIL AND COLLABORATION</a></li>
+   <li><a href="#">IT AND HELP DESK</a></li>
+   <li><a href="#">FINANCE</a></li>
+   <li><a href="#">HR</a></li>
+   <li><a href="#">BUSINESS PROCESS</a></li>
+   </ul>
+   </div>
+
+   <div class="login">
+   <a href="#">LOGIN</a>
+   </div>
+</div>
+<div class="container">
+  <div class="product-menu">
+  <a href="#"><img src="css/img/crm.png" alt="crm" /></a>
+  <div class="product-title">
+  <a href="#">CRM</a>
+  </div>
+  </div>
+
+  <div id="hamburger2" onClick="showHideDiv('mobile-menu','mobile-nav','body' )" >
+  <div class="bar4"></div>
+  <div class="bar5"></div>
+  <div class="bar6"></div>
+  </div>
+
+  <div class="menu">
+  <ul>
+    <li><a href="#">Quick Tour</a></li>
+    <li><a href="#">Features</a></li>
+    <li><a href="#">Pricing</a></li>
+    <li><a href="#">Customers</a></li>
+    <li><a href="#">Add-Ons</a></li>
+    <li><a href="#">Resources</a></li>
+    <li><a href="#">Developers</a></li>
+   </ul>
+   </div>
+   <div id="mobile-menu" style="display:none;" >
+  <ul>
+    <li><a href="#">Quick Tour</a></li>
+    <li><a href="#">Features</a></li>
+    <li><a href="#">Pricing</a></li>
+    <li><a href="#">Customers</a></li>
+    <li><a href="#">Add-Ons</a></li>
+    <li><a href="#">Resources</a></li>
+    <li><a href="#">Developers</a></li>
+   </ul>
+   </div>
+</div>
+<div id="body">
+   <div class="banner">
+        <h1>OPTIRISK SYSTEMS</h1>
+   
+   </div>
+
+  <div class="wrapper">
+    
+      <div class="feature-content feature-content1">
+     <span class="headericon1"></span>
+          <h2>Invoicing</h2>
+          <p>Let the money roll in with Zoho Books. Send quotes to your customers and easily see when they've been approved. Generate professional invoices and set up reminders to automatically chase online payments. If you work by the clock, we have timesheets for you.</p>
+      </div>
+      
+    
+      <div class="subpage1 subpage-content1">
+         <span class="icon1"></span>
+            <h4>Estimates</h4>
+            <p>Share proposals and get notified when customers approve. Accepted estimates can be converted into invoices, sales orders, or projects.</p>
+          </div>
+
+     <div class="subpage2 subpage-content2">
+            <span class="icon2"></span>
+            <h4>Payments</h4>
+            <p>Give your customers online payment options so you can get paid fast. Even offline payments are effortless to record.</p>
+          </div>
+          <div class="subpage3 subpage-content3">
+            <span class="icon3"></span>
+            <h4>Retainer Invoices</h4>
+            <p>Collect deposits and advance payments with Zoho Books. Once the transaction is complete, use the pre-payments to invoice your customers.</p>
+          </div>
+          <div class="subpage4 subpage-content4">
+            <span class="icon4"></span>
+            <h4>Timesheets</h4>
+            <p>Make every billable minute count. Use role-based access to let each employee easily complete the right timesheet actions — whether it's accounting for hours worked or submitting out-of-pocket expenses.</p>
+          </div>
+
+
+
+      <div class="feature-content feature-content2">
+         <span class="headericon2"></span>
+          <h2>Payables</h2>
+          <p>Get a clear view of the purchases you make for your business. Record expenses and send bills from a single location in Zoho Books. And when you're on the road, just scan the receipts and create reports from your phone.</p>
+        </div>
+      
+      
+          <div class="subpage1 subpage-content5">
+            <span class="icon5"></span>
+            <h4>Expenses</h4>
+            <p>Keep track of your expenses and see where your money is going. Go paperless to remove clutter and stay organized.</p>
+          </div>
+          <div class="subpage2 subpage-content6">
+            <span class="icon6"></span>
+            <h4>Bills</h4>
+            <p>We make tracking your payables a breeze. Create one-time or recurring bills to forward expenses to the customers for whom they were incurred.</p>
+          </div>
+          <div class="subpage3 subpage-content7">
+            <span class="icon7"></span>
+            <h4>Vendor Credits</h4>
+            <p>Trouble keeping track of your refunds from vendors? Zoho Books records your vendor credits so you can make sure you receive what you're owed.</p>
+          </div>
+          <div class="subpage4 subpage-content8">
+            <span class="icon8"></span>
+            <h4>Auto-scan</h4>
+            <p>Capture mountains of receipts with auto-scan. Simply upload your receipts and let Zoho Books extract data for you.</p>
+          </div>
+        
+      
+      <div class="feature-content feature-content3">
+          <span class="headericon3"></span>
+          <h2>Contact Management</h2>
+          <p>Organize all your customers and vendors in one central place. Give each organization a primary contact person, a billing address, and default payment terms. Collaborate with customers and sales staff to get more done in less time.</p>
+      </div>
+
+
+      
+          <div class="subpage1 subpage-content9">
+            <span class="icon9"></span>
+            <h4>Directory</h4>
+            <p>View outstanding amounts, past transactions, and statements in one place for a better understanding of your contacts.</p>
+          </div>
+          <div class="subpage2 subpage-content10">
+            <span class="icon10"></span>
+            <h4>Client Portal</h4>
+            <p>Let your customers view recent transactions, approve estimates, give feedback, and make bulk payments with the Client Portal.</p>
+          </div>
+          <div class="subpage3 subpage-content11">
+            <span class="icon11"></span>
+            <h4>Zoho CRM integration</h4>
+            <p>Bridge the gap between your sales and finance teams. With Zoho CRM integration, your sales reps can access customers' credit history and purchase patterns for more effective selling.</p>
+          </div>
+          <div class="subpage4 subpage-content12">
+            <span class="icon12"></span>
+            <h4>Auto charge</h4>
+            <p>Associate credit cards and recurring transactions with your contacts to start collecting payments automatically.</p>
+          </div>
+
+
+      <div class="feature-content feature-content4">
+        <span class="headericon4"></span>
+          <h2>Inventory</h2>
+          <p>Stay on top of your inventory at all times. Zoho Books automatically updates your inventory levels when you make a sale or a purchase. Set custom prices and get an accurate view of your your profitability.</p>
+      </div>
+      
+          <div class="subpage1 subpage-content13">
+            <span class="icon13"></span>
+            <h4>Product listing</h4>
+            <p>Organize your inventory with vital information like SKU, cost, and stocks on hand.</p>
+          </div>
+          <div class="subpage2 subpage-content14">
+            <span class="icon14"></span>
+            <h4>SO/PO</h4>
+            <p>Confirm each sale before shipping with custom sales orders. Create purchase orders to communicate your requirements to your vendors with maximum clarity.</p>
+          </div>
+          <div class="subpage3 subpage-content15">
+            <span class="icon15"></span>
+            <h4>Inventory Tracking</h4>
+            <p>Let Zoho Books tell you what goods you have on hand, identify fast-moving items, and keep you well-stocked for your next order.</p>
+          </div>
+          <div class="subpage4 subpage-content16">
+            <span class="icon16"></span>
+            <h4>Dropship</h4>
+            <p>Track your goods' entire journey, from manufacturing to delivery.</p>
+          </div>
+
+
+      <div class="feature-content feature-content5">
+          <span class="headericon5"></span>
+          <h2>Banking</h2>
+          <p>When you grow your business, the volume of transactions also grows. Skip manual entry with our automatic banking feeds. Fetch all of your bank transactions, categorize them, and reconcile your accounts in just a few clicks. Our banking dashboard gives you a hassle-free overview of your entire cashflow.</p>
+      </div>
+      
+          <div class="subpage1 subpage-content17">
+            <span class="icon17"></span>
+            <h4>Feeds</h4>
+            <p>Say no to data entry. Configure, connect, and import all of your bank and credit card transactions automatically in Zoho Books.</p>
+          </div>
+          <div class="subpage2 subpage-content18">
+            <span class="icon18"></span>
+            <h4>Rule based categorization</h4>
+            <p>Set up rules to categorize your  banking transactions. Don't just copy numbers over; make them tell you something.</p>
+          </div>
+          <div class="subpage3 subpage-content19">
+            <span class="icon19"></span>
+            <h4>Multi-currency</h4>
+            <p>It's time to grow beyond borders. Create transactions in foreign currencies, but keep your accounting in your base currency.</p>
+          </div>
+          <div class="subpage4 subpage-content20">
+            <span class="icon20"></span>
+            <h4>Reconciliation</h4>
+            <p>Keep your books in order for tax season. Our smart system helps you reconcile your accounts in a jiffy.</p>
+          </div>
+        
+
+     
+      <div class="feature-content feature-content6">
+          <span class="headericon6"></span>
+          <h2>Customization</h2>
+          <p>Do more with Zoho Books. Save time by automating even the most unique business workflows. Get closer to your customers through personalized communication. Define roles and give your staff controlled access to financial data they need.</p>
+      </div>
+      
+      
+          <div class="subpage1 subpage-content21">
+            <span class="icon21"></span>
+            <h4>Workflows</h4>
+            <p>Set up rules to trigger actions based on events you choose. With every workflow you automate, you gain a little bit more time to grow your business.</p>
+          </div>
+          <div class="subpage2 subpage-content22">
+            <span class="icon22"></span>
+            <h4>Templates</h4>
+            <p>Stay connected with your customers through personalized communication. Send customized invoices and emails to maintain your branding and add a personal touch.</p>
+          </div>
+          <div class="subpage3 subpage-content23">
+            <span class="icon23"></span>
+            <h4>User Roles</h4>
+            <p>Work collaboratively across departments. Zoho Books maintains the integrity of your financial data while providing controlled access to users who need it.</p>
+          </div>
+          <div class="subpage4 subpage-content24">
+            <span class="icon24"></span>
+            <h4>Reporting Tags</h4>
+            <p>Slice and dice the data the way you want. Reporting tags tie all your data together, giving you an organized overview and infinite control over the details.</p>
+          </div>
+        
+
+    
+      <div class="feature-content feature-content7">
+        <span class="headericon7"></span>
+          <h2>Reporting</h2>
+          <p>Make informed business decisions based on accurate, real-time data to optimize your sales and purchases. Schedule reports and get insights into your finances to know what's working for you.</p>
+      </div>
+      
+          <div class="subpage1 subpage-content25">
+            <span class="icon25"></span>
+            <h4>Dashboard</h4>
+            <p>Analyze your business performance faster with a consolidated view. See your receivables, payables, cash flow and expenses all from your dashboard.</p>
+          </div>
+          <div class="subpage2 subpage-content26">
+            <span class="icon26"></span>
+            <h4>Financial Reports</h4>
+            <p>Zoho Books lets you create and share financial reports like P&L, Balance Sheets, and Cashflow Statements instantly.</p>
+          </div>
+          <div class="subpage3 subpage-content27">
+            <span class="icon27"></span>
+            <h4>Sales and Purchase Reports</h4>
+            <p>Get quick insights into your sales and purchases. View your aging summary, monitor sales by item, and track all purchase order activities.</p>
+          </div>
+          <div class="subpage4 subpage-content28">
+            <span class="icon28"></span>
+            <h4>FIFO reporting</h4>
+            <p>Our FIFO inventory valuation keeps your financial inventory as orderly as your shelves. Goods are accounted in the order they were purchased, ensuring that your ending inventory is accurate and current. </p>
+          </div>
+       
+
+    
+      <div class="feature-content feature-content8">
+        <span class="headericon8"></span>
+          <h2>GST ready</h2>
+          <p>Get a grip over your taxes with Zoho Books. We're GST compliant and we keep you tax season ready. Know your GST liability, file returns, and make payments through a single platform.</p>
+      </div>
+      
+          <div class="subpage1 subpage-content29">
+            <span class="icon29"></span>
+            <h4>Registered/Unregistered Users</h4>
+            <p>Track sales to registered and unregistered users to claim your tax credits accurately.</p>
+          </div>
+          <div class="subpage2 subpage-content30">
+            <span class="icon30"></span>
+            <h4>Payments</h4>
+            <p>Define the SGST, CGST and IGST tax rates and start levying them on every transaction that you do.</p>
+          </div>
+          <div class="subpage3 subpage-content31">
+            <span class="icon31"></span>
+            <h4>Tax returns</h4>
+            <p>While you enjoy your favourite coffee, we calculate the tax you owe to the tax authorities.</p>
+          </div>
+          <div class="subpage4 subpage-content32">
+            <span class="icon32"></span>
+            <h4>Filing GST</h4>
+            <p>File your GSTR1, GSTR2, and GSTR3 from Zoho Books and directly pay the tax you owe.</p>
+          </div>
+        
+  </div>      
+ </div>
+
+ <div class="footer">
+  <div class="footer-top">
+   <ul>
+   <li><a href="#"><strong>About Us</strong></a></li>
+   <li><a href="#"><strong>Careers</strong></a></li>
+   <li><a href="#"><strong>The Team</strong></a></li>
+   <li><a href="#"><strong>Press</strong></a></li>
+   <li><a href="#"><strong>Customers</strong></a></li>
+   <li><a href="#"><strong>Blogs</strong></a></li>
+   <li><a href="#"><strong>Contact Us</strong></a></li>
+   </ul>
+   </div> 
+   <div class="link1">
+    <h3><strong>Product</strong></h3>
+   <ul>
+   <li><a href="#">How it works</a></li>
+   <li><a href="#">Pricing</a></li>
+   <li><a href="#">Integrations</a></li>
+   <li><a href="#">Dashboard Gallery</a></li>
+   <li><a href="#">Klip Gallery</a></li>
+   <li><a href="#">Live Dashboard </a></li>
+   <li><a href="#">Examples</a></li>
+   <li><a href="#">Developer Resources</a></li>
+   </ul>
+   </div>
+
+   <div class="link2">
+    <h3><strong>Klipfolio For</strong></h3>
+   <ul>
+   <li><a href="#">Analysts</a></li>
+   <li><a href="#">Marketers</a></li>
+   <li><a href="#">Sales Professionals</a></li>
+   <li><a href="#">Executive</a></li>
+   <li><a href="#">SaaS Companies</a></li>
+   <li><a href="#">Marketing Agencies</a></li>
+   </ul>
+   </div>
+
+   <div class="link3">
+    <h3><strong>Learn</strong></h3>
+   <ul>
+   <li><a href="#">Workshops</a></li>
+   <li><a href="#">Klipfolio Courses</a></li>
+   <li><a href="#">KPIs</a></li>
+   <li><a href="#">Dashboards</a></li>
+   <li><a href="#">Articles</a></li>
+   <li><a href="#">Case Studies</a></li>
+   <li><a href="#">Videos</a></li>
+   </ul>
+   </div>
+
+   <div class="link4">
+    <h3><strong>Support</strong></h3>
+   <ul>
+   <li><a href="#">Help Center</a></li>
+   <li><a href="#">Knowledge Base</a></li>
+   <li><a href="#">Community</a></li>
+   <li><a href="#">API Docs</a></li>
+   </ul>
+   </div>
+
+   <div class="link5">
+    <h3><strong>Partners</strong></h3>
+   <ul>
+   <li><a href="#">Partners Directory</a></li>
+   <li><a href="#">Marketing Agencies</a></li>
+   <li><a href="#">Analytics Firms and System Integrators</a></li>
+   <li><a href="#">Business Solution Providers</a></li>
+   <li><a href="#">Technology Providers</a></li>
+   <li><a href="#">OEMs</a></li>
+   </ul>
+   </div>
+
+   <div class="icons">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
+   </div>
+   <div class="footer-bottom">
+       <p>Copyright &copy; 2017 Klipfolio Inc.</p>
+   </div>
+   <div class="rights">
+       <p> All Rights Reserved.</p>
+   </div>
+
+   <div class="terms">
+       <ul>
+   <li><a href="#">Legal</a></li>
+   <li><a href="#">Security</a></li>
+   <li><a href="#">Accessibility</a></li>
+   <li><a href="#">Terms of use</a></li>
+     </ul>
+   </div> 
+</div>
+
+</body>
+</html>
